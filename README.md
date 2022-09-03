@@ -8,8 +8,8 @@ En este repositorio se encontrarán laboratorios con prácticas para lograr lo a
 
 ### Provisionar una Box de Vagrant
 
-[Aprovisionamiento](docs/Aprovisionamiento)
+[Aprovisionamiento](Aprovisionamiento)
 
 ### Dockerizar una aplicación en python
 
-[Dockerización](docs/Dockerizacion)
+[Dockerización](Dockerizacion)
