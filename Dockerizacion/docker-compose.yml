@@ -1,0 +1,30 @@
+# version: '3'
+
+# services:
+#     python-app:
+#           image: andreanathaliar/python-docker:1.0
+#           ports:
+#               - 8910:8910
+
+
+
+version: '3'
+
+services:
+
+  db:
+    platform: linux/x86_64
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    volumes:
+        - /tmp/data:/var/lib/mysql
+        - /tmp/logs:/var/logs
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
