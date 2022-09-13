@@ -13,3 +13,7 @@ En este repositorio se encontrarán laboratorios con prácticas para lograr lo a
 ### Dockerizar una aplicación en python
 
 [Dockerización](Dockerizacion)
+
+### Desplegar servicios utilizando docker compose
+
+[Dockerización](Desplegar servicios)
