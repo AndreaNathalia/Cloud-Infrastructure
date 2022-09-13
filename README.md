@@ -16,4 +16,4 @@ En este repositorio se encontrarán laboratorios con prácticas para lograr lo a
 
 ### Desplegar servicios utilizando docker compose
 
-[Dockerización](Desplegar servicios)
+[Servicios](Desplegar servicios)
